@@ -2,7 +2,7 @@
 #include <stack>
 using namespace std;
  
-int reductant_braces(string s, stack<char> expr) {
+int redundant_braces(string s, stack<char> expr) {
     for (int i = 0; i < s.length(); i++) {
         expr.push(s[i]);
           
@@ -28,7 +28,7 @@ int main() {
     string s;
     cin >> s;
     stack<char> expr;
-    cout << reductant_braces(s, expr);
+    cout << redundant_braces(s, expr);
     
     return 0;
 } 
