@@ -9,8 +9,8 @@ int main(){
     cin >> end;
     int possible_triangles = 0;
 
-    for(int i = start; i < end - 2 ; i ++){
-        for(int j = i+1; j < end - 1; j ++){
+    for(int i = start; i < end; i ++){
+        for(int j = i+1; j < end; j ++){
                 if ( i + j < end + 1)
                     possible_triangles += i - 1;
                 else
