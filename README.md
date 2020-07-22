@@ -22,4 +22,4 @@ A natural and simple approach for this question would be to calculate the factor
 This is fairly a simple problem but I learnt a lot about time complexity through this problem. At first, it seemed that the time complexity would be O(n^3) (obviously avoid the unnecessary first for loop, that is just for some experiment). But then I experimented and observed the linear time complexity. It is because on an average, numbers are very small
 as compared to n and even the factorial is also calculated only for numbers ranging from 0-9. 
 ![image](/Desktop/images/run-time.png)
-![Desktop/images/run-time.png](:/d284d66158af466eb433476324ccc81f)
+![run-time.png](:/d284d66158af466eb433476324ccc81f)
