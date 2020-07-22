@@ -35,6 +35,10 @@ int main(int argc, char* argv[])
     
         }
     }
+    // Uncomment to display the numbers
+   /*for (const int x: v) {
+       cout << x << endl;
+    }*/
     return 0;
 }
 
